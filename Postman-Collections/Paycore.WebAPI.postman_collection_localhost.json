@@ -1,0 +1,2071 @@
+{
+	"info": {
+		"_postman_id": "f15e92d1-0b9a-4a3d-8bed-0ec80f7df77c",
+		"name": "Paycore.WebAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "Account Details",
+					"item": [
+						{
+							"name": "/api/AccountDetails/GetUserProductOffers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/AccountDetails/GetUserProductOffers",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"AccountDetails",
+										"GetUserProductOffers"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/AccountDetails/GetUserProductOffers",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"AccountDetails",
+												"GetUserProductOffers"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/AccountDetails/GetUserOffersOnProducts",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/AccountDetails/GetUserOffersOnProducts",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"AccountDetails",
+										"GetUserOffersOnProducts"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/AccountDetails/GetUserOffersOnProducts",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"AccountDetails",
+												"GetUserOffersOnProducts"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Auths",
+					"item": [
+						{
+							"name": "/api/Auths/Login",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"nostrud\",\n  \"password\": \"nisi tempor dolore incididunt\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Auths/Login",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Auths",
+										"Login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"email\": \"nostrud\",\n  \"password\": \"nisi tempor dolore incididunt\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Auths/Login",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Auths",
+												"Login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Auths/Register",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"firstName\": \"Ut cillum magna\",\n  \"lastName\": \"ad cillum proident cupidatat id\",\n  \"email\": \"eiusmod\",\n  \"password\": \"ipsum mollit eiusmod sunt\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Auths/Register",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Auths",
+										"Register"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"firstName\": \"Ut cillum magna\",\n  \"lastName\": \"ad cillum proident cupidatat id\",\n  \"email\": \"eiusmod\",\n  \"password\": \"ipsum mollit eiusmod sunt\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Auths/Register",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Auths",
+												"Register"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Brands",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/api/Brands/:id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Brands/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Brands",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/Brands/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"Brands",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Brands/:id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Brands/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Brands",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/Brands/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"Brands",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/api/Brands",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/Brands",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Brands"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Brands",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Brands"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Brands",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -20854550,\n  \"isDeleted\": true,\n  \"brandName\": \"consequat\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Brands",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Brands"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -20854550,\n  \"isDeleted\": true,\n  \"brandName\": \"consequat\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Brands",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Brands"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Brands",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -20854550,\n  \"isDeleted\": true,\n  \"brandName\": \"consequat\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Brands",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Brands"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -20854550,\n  \"isDeleted\": true,\n  \"brandName\": \"consequat\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Brands",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Brands"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "categories",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/api/categories/:id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/categories/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"categories",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/categories/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"categories",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/categories/:id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/categories/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"categories",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/categories/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"categories",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/api/categories",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/categories",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"categories"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/categories",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"categories"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/categories",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": 91577518,\n  \"isDeleted\": false,\n  \"categoryName\": \"nostrud ipsum\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/categories",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"categories"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": 91577518,\n  \"isDeleted\": false,\n  \"categoryName\": \"nostrud ipsum\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/categories",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"categories"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/categories",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": 91577518,\n  \"isDeleted\": false,\n  \"categoryName\": \"nostrud ipsum\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/categories",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"categories"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": 91577518,\n  \"isDeleted\": false,\n  \"categoryName\": \"nostrud ipsum\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/categories",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"categories"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Colors",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/api/Colors/:id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Colors/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Colors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/Colors/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"Colors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Colors/:id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Colors/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Colors",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/Colors/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"Colors",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/api/Colors",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/Colors",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Colors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Colors",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Colors"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Colors",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -47009302,\n  \"isDeleted\": false,\n  \"colorName\": \"ut tempor dolor cillum nulla\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Colors",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Colors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -47009302,\n  \"isDeleted\": false,\n  \"colorName\": \"ut tempor dolor cillum nulla\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Colors",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Colors"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Colors",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -47009302,\n  \"isDeleted\": false,\n  \"colorName\": \"ut tempor dolor cillum nulla\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Colors",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Colors"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -47009302,\n  \"isDeleted\": false,\n  \"colorName\": \"ut tempor dolor cillum nulla\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Colors",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Colors"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Offers",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/api/Offers/:id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Offers/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Offers",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/Offers/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"Offers",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Offers/:id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Offers/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Offers",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/Offers/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"Offers",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/api/Offers",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -25411699,\n  \"isDeleted\": true,\n  \"isApproved\": true,\n  \"offeredPrice\": 32125677.48609367,\n  \"productId\": 7635231,\n  \"percentRate\": 89120201,\n  \"userId\": -59496323\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Offers",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Offers"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -25411699,\n  \"isDeleted\": true,\n  \"isApproved\": true,\n  \"offeredPrice\": 32125677.48609367,\n  \"productId\": 7635231,\n  \"percentRate\": 89120201,\n  \"userId\": -59496323\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Offers",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Offers"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Offers",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -25411699,\n  \"isDeleted\": true,\n  \"isApproved\": true,\n  \"offeredPrice\": 32125677.48609367,\n  \"productId\": 7635231,\n  \"percentRate\": 89120201,\n  \"userId\": -59496323\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Offers",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Offers"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -25411699,\n  \"isDeleted\": true,\n  \"isApproved\": true,\n  \"offeredPrice\": 32125677.48609367,\n  \"productId\": 7635231,\n  \"percentRate\": 89120201,\n  \"userId\": -59496323\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Offers",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Offers"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Offers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/Offers",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Offers"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Offers",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Offers"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Offers/ApproveTheOffer",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/Offers/ApproveTheOffer?offerId=39843056",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Offers",
+										"ApproveTheOffer"
+									],
+									"query": [
+										{
+											"key": "offerId",
+											"value": "39843056"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Offers/ApproveTheOffer?offerId=39843056",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Offers",
+												"ApproveTheOffer"
+											],
+											"query": [
+												{
+													"key": "offerId",
+													"value": "39843056"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Offers/RejectTheOffer",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/Offers/RejectTheOffer?offerId=39843056",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Offers",
+										"RejectTheOffer"
+									],
+									"query": [
+										{
+											"key": "offerId",
+											"value": "39843056"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Offers/RejectTheOffer?offerId=39843056",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Offers",
+												"RejectTheOffer"
+											],
+											"query": [
+												{
+													"key": "offerId",
+													"value": "39843056"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Products",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/api/Products/:id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Products/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Products",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/Products/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"Products",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Products/:id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Products/:id",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Products",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "39843056",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "http://localhost:28760/api/Products/:id",
+													"host": [
+														"http://localhost:28760"
+													],
+													"path": [
+														"api",
+														"Products",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "39843056",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "/api/Products",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -40161358,\n  \"isDeleted\": false,\n  \"productName\": \"est veniam Ut\",\n  \"description\": \"commodo amet\",\n  \"isOfferable\": false,\n  \"isSold\": false,\n  \"categoryId\": 16043144,\n  \"brandId\": 54967362,\n  \"colorId\": -75427010,\n  \"userId\": 27288456,\n  \"price\": 26809243.084347755\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Products",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Products"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -40161358,\n  \"isDeleted\": false,\n  \"productName\": \"est veniam Ut\",\n  \"description\": \"commodo amet\",\n  \"isOfferable\": false,\n  \"isSold\": false,\n  \"categoryId\": 16043144,\n  \"brandId\": 54967362,\n  \"colorId\": -75427010,\n  \"userId\": 27288456,\n  \"price\": 26809243.084347755\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Products",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Products"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Products",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -40161358,\n  \"isDeleted\": false,\n  \"productName\": \"est veniam Ut\",\n  \"description\": \"commodo amet\",\n  \"isOfferable\": false,\n  \"isSold\": false,\n  \"categoryId\": 16043144,\n  \"brandId\": 54967362,\n  \"colorId\": -75427010,\n  \"userId\": 27288456,\n  \"price\": 26809243.084347755\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:28760/api/Products",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Products"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -40161358,\n  \"isDeleted\": false,\n  \"productName\": \"est veniam Ut\",\n  \"description\": \"commodo amet\",\n  \"isOfferable\": false,\n  \"isSold\": false,\n  \"categoryId\": 16043144,\n  \"brandId\": 54967362,\n  \"colorId\": -75427010,\n  \"userId\": 27288456,\n  \"price\": 26809243.084347755\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:28760/api/Products",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Products"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Products",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/Products",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Products"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Products",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Products"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Products/SellTheProduct",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:28760/api/Products/SellTheProduct?productId=39843056",
+									"host": [
+										"http://localhost:28760"
+									],
+									"path": [
+										"api",
+										"Products",
+										"SellTheProduct"
+									],
+									"query": [
+										{
+											"key": "productId",
+											"value": "39843056"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:28760/api/Products/SellTheProduct?productId=39843056",
+											"host": [
+												"http://localhost:28760"
+											],
+											"path": [
+												"api",
+												"Products",
+												"SellTheProduct"
+											],
+											"query": [
+												{
+													"key": "productId",
+													"value": "39843056"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
