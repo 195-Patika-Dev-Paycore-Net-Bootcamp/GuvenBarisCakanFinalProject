@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\PayCore.Application\PayCore.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\PayCore.Infrastructure\PayCore.Infrastructure.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
+		<PackageReference Include="FluentNHibernate" Version="3.1.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="StackExchange.Redis.Extensions.Core" Version="8.0.5" />
+		<PackageReference Include="NHibernate" Version="5.3.12" />
+		<PackageReference Include="Npgsql" Version="6.0.6" />
+		<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="6.0.5" />
+	</ItemGroup>
+
+</Project>
