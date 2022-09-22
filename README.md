@@ -35,6 +35,8 @@ register olan kullanıcının login işlemini gerçekleştirmesi gerekmektedir.
 
 Controller'lara istek atılabilmesi için login olunması gerekmektedir.
 
+Postman Collection; Postman üzerinden import edilerek, Api'ye istek atılabilir methodlar tetiklenebilir([Detaylar için bkz.](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/).
+
 ## Domain
 
 Uygulamamızın database tablolarına karşılık gelen classları oluşturduğumuz katmandır.
@@ -68,7 +70,7 @@ karşılıkları oluşturularak database işlemleri yapılır.
 
 *Mapping* : Database de ki tablolarımızın nasıl oluşacağını belirlediğimiz nesnelerdir. Burada belirlediğimiz ayarlar ile database tablolarımız oluşur.  
 *DependencyContainers* : Infrastructure katmanının bağımlılık çözümleyici kısmıdır. WebAPI ye eklenmesi gerekir.  
-*Sessions* : Application katmanın da ki modellere özgü Interface'lerin karşılıklarının olduğu kısımdır. 
+*Sessions* : Application katmanın da ki modellere özgü Interface'lerin karşılıklarının olduğu kısımdır.              
 *UnitOfWork* : [Unit Of Work](https://www.c-sharpcorner.com/UploadFile/b1df45/unit-of-work-in-repository-pattern/#:~:text=Unit%20of%20Work%20is%20the,update%2Fdelete%20and%20so%20on.) design pattern, Session nesnelerinin tek bir yerden 
 yönetilebilmesini sağlamak amacıyla kullanılmıştır.
 
