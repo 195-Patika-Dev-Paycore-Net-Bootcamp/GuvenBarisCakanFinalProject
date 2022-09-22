@@ -35,7 +35,7 @@ register olan kullanıcının login işlemini gerçekleştirmesi gerekmektedir.
 
 Controller'lara istek atılabilmesi için login olunması gerekmektedir.
 
-Postman Collection; Postman üzerinden import edilerek, Api'ye istek atılabilir methodlar tetiklenebilir([Detaylar için bkz.](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/).
+Postman Collection; Postman üzerinden import edilerek, Api'ye istek atılabilir methodlar tetiklenebilir([Detaylar için bkz.](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/))
 
 ## Domain
 
